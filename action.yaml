@@ -18,7 +18,7 @@ inputs:
 
 runs:
   using: docker
-  image: docker://danielflook/terraform-github-actions:v1.5.1
+  image: docker://danielflook/terraform-github-actions:v1.5.2
   entrypoint: /entrypoints/new-workspace.sh
 
 branding:
